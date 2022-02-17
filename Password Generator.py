@@ -59,7 +59,7 @@ def cusran(seq):
 #Main Program:    
     
 n = int(input("Enter password length: "))
-rf = input("Do you want a random password?(y/n) ")
+rf = input("If you want a totally randomized password, enter y else, if you want to remove certain type of characters, enter n")
     
 if rf == "y":
     randomiser(n)
